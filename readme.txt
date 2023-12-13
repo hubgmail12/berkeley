@@ -3,7 +3,7 @@ Welcome to Driveby Coupn accpetance analytics
 
 How to load the project ?
 
-Project contains of data folder, images folder, and mmodule.ipynb
+Project contains of the following:
 
 - Checkout the entire folder
 - Run Jupyter on prompt.ipynb
