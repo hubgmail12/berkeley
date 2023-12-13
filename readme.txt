@@ -35,11 +35,17 @@ How do we go about this?
 
 5. In this case, in this project, you can find how I used different methods to create a new column using fiter, fix existing columns and change the type to integer
 
-6. Once I do the first set of cleanup , I typically create a copy dataFrame. You really do not need to do this, but there were a couple of times that I dropped columns or changed the data iin a way that it was not reversible and I had to start from beginning. so this is just for me, so after cleaning the data that I thoguht I would use in the project, then i copied and used the copy going forward.
+6. Once I do the first set of cleanup , I typically create a copy of the original dataFrame. You really do not need to do this, but there were a couple of times that I dropped columns or changed the data in a way that it was not reversible and I had to start from beginning. so this is just for me, so after cleaning the data that I thoguht I would use in the project, then i copied and used the copy going forward.
 
-7. There are more cleaning you can do if needed bu at this point I think I was set for what I had planned to do.
+7. my data cleaning included, creating a new column for income range and used lower income to create the column so I can search on, ..
 
-8. I also find it very useful to have comments and also ensuring your print statements are clear, so anyone knows what you were trying to do.
+8. I also changed the ag column. I changed the string 50 plus to 50 and lower then 21 to 20. This allows me to do better searches and easier.
+
+9. in addition I did additional clean up of another clumns and dropped another column which had no use
+
+10, I also merged 2 columns since the data could be stored in the single column, I have the details in the file with proper comments so it can be followed.
+
+11. I also find it very useful to have comments and also ensuring your print statements are clear, so anyone knows what you were trying to do.
 
 
 Now the Data:
@@ -49,7 +55,7 @@ How to load the project ?
 Project contains of data folder, images folder, and mmodule.ipynb
 
 - Checkout the entire folder
-- Run Jupyter on module5.ipynb
+- Run Jupyter on prompt.ipynb
 - Load the data 
 - Run each section as you go through the file.
 - At any point, you can either update the exisitng or add new sections to try other comparisons
@@ -58,7 +64,7 @@ My evaluation based on the project:
 
 Bar:
 - Bar Coupons acceptance has been more common among younger crowd
-- Alos out of those, those who went to bar less, seems to have accepted the bar coupon more.
+- Also out of those, those who went to bar less, seems to have accepted the bar coupon more.
 - More males than feamles accepted the coupon
 - Having kids or occupation, did not seem to have an impact on acceptance
 
@@ -71,7 +77,7 @@ Bar:
 
 You have the opportunity to examine this, or continue using other categories and other experiements.
 
--Enjoy and please provide feedback.
+-Enjoy
 
 
 
