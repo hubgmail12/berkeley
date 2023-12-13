@@ -1,6 +1,22 @@
 Welcome to Driveby Coupn accpetance analytics
 
 
+How to load the project ?
+
+Project contains of data folder, images folder, and mmodule.ipynb
+
+- Checkout the entire folder
+- Run Jupyter on prompt.ipynb
+- Load the data 
+- Run each section as you go through the file.
+- At any point, you can either update the exisitng or add new sections to try other comparisons
+- Required files:
+---- prompt.ipynb
+---- data/coupons.csv
+- Jupyter File Location:
+- https://github.com/hubgmail12/berkeley/blob/main/prompt.ipynb
+
+
 Will a Customer / Driver  Accept the Coupon?
 
 
@@ -48,17 +64,6 @@ How do we go about this?
 11. I also find it very useful to have comments and also ensuring your print statements are clear, so anyone knows what you were trying to do.
 
 
-Now the Data:
-
-How to load the project ?
-
-Project contains of data folder, images folder, and mmodule.ipynb
-
-- Checkout the entire folder
-- Run Jupyter on prompt.ipynb
-- Load the data 
-- Run each section as you go through the file.
-- At any point, you can either update the exisitng or add new sections to try other comparisons
 
 My evaluation based on the project:
 
